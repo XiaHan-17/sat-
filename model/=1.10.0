@@ -1,0 +1,150 @@
+Looking in indexes: http://mirrors.aliyun.com/pypi/simple
+Requirement already satisfied: torch in /root/miniconda3/envs/sat/lib/python3.10/site-packages (2.7.1)
+Collecting numpy==1.21.5
+  Downloading http://mirrors.aliyun.com/pypi/packages/b3/1c/001ee062f215a5a8b44a3e8a80bd6f504a53f55426c3ea37ffdba472e98f/numpy-1.21.5-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (15.9 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 15.9/15.9 MB 48.6 MB/s eta 0:00:00
+Collecting monai==1.1.0
+  Downloading http://mirrors.aliyun.com/pypi/packages/2c/ed/198fda679711571a11aee6a7916f446d04d942e303e7d76a1ece963cf181/monai-1.1.0-202212191849-py3-none-any.whl (1.2 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.2/1.2 MB 28.6 MB/s eta 0:00:00
+Collecting transformers==4.21.3
+  Downloading http://mirrors.aliyun.com/pypi/packages/6a/4a/d35a2140bba25a26b8c8daf74b89f3ab46ad957e998bf77b7b4305187bc5/transformers-4.21.3-py3-none-any.whl (4.7 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.7/4.7 MB 13.8 MB/s eta 0:00:00
+Collecting nibabel==4.0.2
+  Downloading http://mirrors.aliyun.com/pypi/packages/89/51/c97641cc2cd1b3b14cdec54b4e86fe03fc59753ecd13dc67544716fb7353/nibabel-4.0.2-py3-none-any.whl (3.3 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.3/3.3 MB 26.1 MB/s eta 0:00:00
+Collecting einops==0.6.1
+  Downloading http://mirrors.aliyun.com/pypi/packages/68/24/b05452c986e8eff11f47e123a40798ae693f2fa1ed2f9546094997d2f6be/einops-0.6.1-py3-none-any.whl (42 kB)
+Collecting positional_encodings==6.0.1
+  Downloading http://mirrors.aliyun.com/pypi/packages/fd/50/3a5cf4de507cd4c67fb353e95c734d9228706a671f849457639c62933c06/positional_encodings-6.0.1-py3-none-any.whl (7.5 kB)
+Collecting scipy
+  Downloading http://mirrors.aliyun.com/pypi/packages/8e/6d/41991e503e51fc1134502694c5fa7a1671501a17ffa12716a4a9151af3df/scipy-1.15.3-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (37.7 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 37.7/37.7 MB 41.9 MB/s eta 0:00:00
+Collecting pandas
+  Downloading http://mirrors.aliyun.com/pypi/packages/2c/95/79ab37aa4c25d1e7df953dde407bb9c3e4ae47d154bc0dd1692f3a6dcf8c/pandas-2.3.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (12.3 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12.3/12.3 MB 49.9 MB/s eta 0:00:00
+Collecting openpyxl
+  Downloading http://mirrors.aliyun.com/pypi/packages/c0/da/977ded879c29cbd04de313843e76868e6e13408a94ed6b987245dc7c8506/openpyxl-3.1.5-py2.py3-none-any.whl (250 kB)
+Requirement already satisfied: filelock in /root/miniconda3/envs/sat/lib/python3.10/site-packages (from transformers==4.21.3) (3.18.0)
+Collecting huggingface-hub<1.0,>=0.1.0 (from transformers==4.21.3)
+  Downloading http://mirrors.aliyun.com/pypi/packages/8c/cf/dd53c0132f50f258b06dd37a4616817b1f1f6a6b38382c06effd04bb6881/huggingface_hub-0.34.1-py3-none-any.whl (558 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 558.8/558.8 kB 58.0 MB/s eta 0:00:00
+Collecting packaging>=20.0 (from transformers==4.21.3)
+  Downloading http://mirrors.aliyun.com/pypi/packages/20/12/38679034af332785aac8774540895e234f4d07f7545804097de4b666afd8/packaging-25.0-py3-none-any.whl (66 kB)
+Collecting pyyaml>=5.1 (from transformers==4.21.3)
+  Downloading http://mirrors.aliyun.com/pypi/packages/6b/4e/1523cb902fd98355e2e9ea5e5eb237cbc5f3ad5f3075fa65087aa0ecb669/PyYAML-6.0.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (751 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 751.2/751.2 kB 64.9 MB/s eta 0:00:00
+Collecting regex!=2019.12.17 (from transformers==4.21.3)
+  Downloading http://mirrors.aliyun.com/pypi/packages/f2/98/26d3830875b53071f1f0ae6d547f1d98e964dd29ad35cbf94439120bb67a/regex-2024.11.6-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (781 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 781.7/781.7 kB 137.2 MB/s eta 0:00:00
+Collecting requests (from transformers==4.21.3)
+  Downloading http://mirrors.aliyun.com/pypi/packages/7c/e4/56027c4a6b4ae70ca9de302488c5ca95ad4a39e190093d6c1a8ace08341b/requests-2.32.4-py3-none-any.whl (64 kB)
+Collecting tokenizers!=0.11.3,<0.13,>=0.11.1 (from transformers==4.21.3)
+  Downloading http://mirrors.aliyun.com/pypi/packages/d4/be/2bba6943ee32f47a85ec72f5d7fdb943804ef42cc9babc922d010cfa05a9/tokenizers-0.12.1-cp310-cp310-manylinux_2_12_x86_64.manylinux2010_x86_64.whl (6.6 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.6/6.6 MB 33.8 MB/s eta 0:00:00
+Collecting tqdm>=4.27 (from transformers==4.21.3)
+  Downloading http://mirrors.aliyun.com/pypi/packages/d0/30/dc54f88dd4a2b5dc8a0279bdd7270e735851848b762aeb1c1184ed1f6b14/tqdm-4.67.1-py3-none-any.whl (78 kB)
+Requirement already satisfied: setuptools in /root/miniconda3/envs/sat/lib/python3.10/site-packages (from nibabel==4.0.2) (78.1.1)
+Requirement already satisfied: fsspec>=2023.5.0 in /root/miniconda3/envs/sat/lib/python3.10/site-packages (from huggingface-hub<1.0,>=0.1.0->transformers==4.21.3) (2025.7.0)
+Requirement already satisfied: typing-extensions>=3.7.4.3 in /root/miniconda3/envs/sat/lib/python3.10/site-packages (from huggingface-hub<1.0,>=0.1.0->transformers==4.21.3) (4.14.1)
+Collecting hf-xet<2.0.0,>=1.1.3 (from huggingface-hub<1.0,>=0.1.0->transformers==4.21.3)
+  Downloading http://mirrors.aliyun.com/pypi/packages/6d/2f/6cad7b5fe86b7652579346cb7f85156c11761df26435651cbba89376cd2c/hf_xet-1.1.5-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.1/3.1 MB 50.1 MB/s eta 0:00:00
+Requirement already satisfied: sympy>=1.13.3 in /root/miniconda3/envs/sat/lib/python3.10/site-packages (from torch) (1.14.0)
+Requirement already satisfied: networkx in /root/miniconda3/envs/sat/lib/python3.10/site-packages (from torch) (3.4.2)
+Requirement already satisfied: jinja2 in /root/miniconda3/envs/sat/lib/python3.10/site-packages (from torch) (3.1.6)
+Requirement already satisfied: nvidia-cuda-nvrtc-cu12==12.6.77 in /root/miniconda3/envs/sat/lib/python3.10/site-packages (from torch) (12.6.77)
+Requirement already satisfied: nvidia-cuda-runtime-cu12==12.6.77 in /root/miniconda3/envs/sat/lib/python3.10/site-packages (from torch) (12.6.77)
+Requirement already satisfied: nvidia-cuda-cupti-cu12==12.6.80 in /root/miniconda3/envs/sat/lib/python3.10/site-packages (from torch) (12.6.80)
+Requirement already satisfied: nvidia-cudnn-cu12==9.5.1.17 in /root/miniconda3/envs/sat/lib/python3.10/site-packages (from torch) (9.5.1.17)
+Requirement already satisfied: nvidia-cublas-cu12==12.6.4.1 in /root/miniconda3/envs/sat/lib/python3.10/site-packages (from torch) (12.6.4.1)
+Requirement already satisfied: nvidia-cufft-cu12==11.3.0.4 in /root/miniconda3/envs/sat/lib/python3.10/site-packages (from torch) (11.3.0.4)
+Requirement already satisfied: nvidia-curand-cu12==10.3.7.77 in /root/miniconda3/envs/sat/lib/python3.10/site-packages (from torch) (10.3.7.77)
+Requirement already satisfied: nvidia-cusolver-cu12==11.7.1.2 in /root/miniconda3/envs/sat/lib/python3.10/site-packages (from torch) (11.7.1.2)
+Requirement already satisfied: nvidia-cusparse-cu12==12.5.4.2 in /root/miniconda3/envs/sat/lib/python3.10/site-packages (from torch) (12.5.4.2)
+Requirement already satisfied: nvidia-cusparselt-cu12==0.6.3 in /root/miniconda3/envs/sat/lib/python3.10/site-packages (from torch) (0.6.3)
+Requirement already satisfied: nvidia-nccl-cu12==2.26.2 in /root/miniconda3/envs/sat/lib/python3.10/site-packages (from torch) (2.26.2)
+Requirement already satisfied: nvidia-nvtx-cu12==12.6.77 in /root/miniconda3/envs/sat/lib/python3.10/site-packages (from torch) (12.6.77)
+Requirement already satisfied: nvidia-nvjitlink-cu12==12.6.85 in /root/miniconda3/envs/sat/lib/python3.10/site-packages (from torch) (12.6.85)
+Requirement already satisfied: nvidia-cufile-cu12==1.11.1.6 in /root/miniconda3/envs/sat/lib/python3.10/site-packages (from torch) (1.11.1.6)
+Requirement already satisfied: triton==3.3.1 in /root/miniconda3/envs/sat/lib/python3.10/site-packages (from torch) (3.3.1)
+INFO: pip is looking at multiple versions of scipy to determine which version is compatible with other requirements. This could take a while.
+Collecting scipy
+  Downloading http://mirrors.aliyun.com/pypi/packages/de/3c/c96d904b9892beec978562f64d8cc43f9cca0842e65bd3cd1b7f7389b0ba/scipy-1.15.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (37.6 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 37.6/37.6 MB 19.4 MB/s eta 0:00:00
+  Downloading http://mirrors.aliyun.com/pypi/packages/17/03/390a1c5c61fd76b0fa4b3c5aa3bdd7e60f6c46f712924f1a9df5705ec046/scipy-1.15.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (40.6 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 40.6/40.6 MB 15.3 MB/s eta 0:00:00
+  Downloading http://mirrors.aliyun.com/pypi/packages/99/17/ca390fbbfea5b34e3a00fc819fcb7c22e8b889360882820030b533d26c01/scipy-1.15.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (40.6 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 40.6/40.6 MB 23.5 MB/s eta 0:00:00
+  Downloading http://mirrors.aliyun.com/pypi/packages/47/78/b0c2c23880dd1e99e938ad49ccfb011ae353758a2dc5ed7ee59baff684c3/scipy-1.14.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (41.2 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 41.2/41.2 MB 15.9 MB/s eta 0:00:00
+  Downloading http://mirrors.aliyun.com/pypi/packages/e2/20/15c8fe0dfebb6facd81b3d08bf45dfa080e305deb17172b0a40eba59e927/scipy-1.14.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (41.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 41.1/41.1 MB 15.3 MB/s eta 0:00:00
+  Downloading http://mirrors.aliyun.com/pypi/packages/a3/ba/7255e5dc82a65adbe83771c72f384d99c43063648456796436c9a5585ec3/scipy-1.13.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (38.6 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 38.6/38.6 MB 17.8 MB/s eta 0:00:00
+  Downloading http://mirrors.aliyun.com/pypi/packages/b9/9d/39dbcf49a793157f9d4f5b8961855677eb4dbb4b82700dcee7042ad2310c/scipy-1.13.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (38.6 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 38.6/38.6 MB 16.0 MB/s eta 0:00:00
+INFO: pip is still looking at multiple versions of scipy to determine which version is compatible with other requirements. This could take a while.
+  Downloading http://mirrors.aliyun.com/pypi/packages/f5/aa/8e6071a5e4dca4ec68b5b22e4991ee74c59c5d372112b9c236ec1faff57d/scipy-1.12.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (38.4 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 38.4/38.4 MB 19.4 MB/s eta 0:00:00
+  Downloading http://mirrors.aliyun.com/pypi/packages/e0/9e/80e2205d138960a49caea391f3710600895dd8292b6868dc9aff7aa593f9/scipy-1.11.4-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (36.4 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 36.4/36.4 MB 18.8 MB/s eta 0:00:00
+  Downloading http://mirrors.aliyun.com/pypi/packages/18/44/7e8d208eb59a8224fcc474415104f13be9b378be8da63f76dfde12ec2b44/scipy-1.11.3-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (36.4 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 36.4/36.4 MB 40.1 MB/s eta 0:00:00
+  Downloading http://mirrors.aliyun.com/pypi/packages/a8/cc/c36f3439f5d47c3b13833ce6687b43a040cc7638c502ac46b41e2d4f3d6f/scipy-1.11.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (36.3 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 36.3/36.3 MB 40.5 MB/s eta 0:00:00
+  Downloading http://mirrors.aliyun.com/pypi/packages/14/f2/10fa23f0a6b9b2439c01579ae4a9b1849d4822e972515c8f92584bfda5e9/scipy-1.11.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (36.3 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 36.3/36.3 MB 33.4 MB/s eta 0:00:00
+INFO: This is taking longer than usual. You might need to provide the dependency resolver with stricter constraints to reduce runtime. See https://pip.pypa.io/warnings/backtracking for guidance. If you want to abort this run, press Ctrl + C.
+  Downloading http://mirrors.aliyun.com/pypi/packages/1f/4b/3bacad9a166350cb2e518cea80ab891016933cc1653f15c90279512c5fa9/scipy-1.10.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (34.4 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 34.4/34.4 MB 25.6 MB/s eta 0:00:00
+INFO: pip is looking at multiple versions of pandas to determine which version is compatible with other requirements. This could take a while.
+Collecting pandas
+  Downloading http://mirrors.aliyun.com/pypi/packages/66/f8/5508bc45e994e698dbc93607ee6b9b6eb67df978dc10ee2b09df80103d9e/pandas-2.3.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (12.3 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12.3/12.3 MB 42.4 MB/s eta 0:00:00
+  Downloading http://mirrors.aliyun.com/pypi/packages/44/50/7db2cd5e6373ae796f0ddad3675268c8d59fb6076e66f0c339d61cea886b/pandas-2.2.3-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (13.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 13.1/13.1 MB 24.1 MB/s eta 0:00:00
+  Downloading http://mirrors.aliyun.com/pypi/packages/89/1b/12521efcbc6058e2673583bb096c2b5046a9df39bd73eca392c1efed24e5/pandas-2.2.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (13.0 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 13.0/13.0 MB 21.8 MB/s eta 0:00:00
+  Downloading http://mirrors.aliyun.com/pypi/packages/19/df/8d789d96a9e338cf28cb7978fa93ef5da53137624b7ef032f30748421c2b/pandas-2.2.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (13.0 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 13.0/13.0 MB 32.8 MB/s eta 0:00:00
+  Downloading http://mirrors.aliyun.com/pypi/packages/b3/b3/3102c3a4abca1093e50cfec2213102a1c65c0b318a4431395d0121e6e690/pandas-2.2.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (13.0 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 13.0/13.0 MB 22.8 MB/s eta 0:00:00
+  Downloading http://mirrors.aliyun.com/pypi/packages/b1/67/aca1f6e215d957d24d0a290321f368503305480268f9617bf625243e9dea/pandas-2.1.4-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (12.3 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12.3/12.3 MB 20.9 MB/s eta 0:00:00
+  Downloading http://mirrors.aliyun.com/pypi/packages/1b/fa/4e5d054549faf1524230ffcd57ca98bb7350a4ed62ef722daabde4cb7632/pandas-2.1.3-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (12.3 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12.3/12.3 MB 21.1 MB/s eta 0:00:00
+INFO: pip is still looking at multiple versions of pandas to determine which version is compatible with other requirements. This could take a while.
+  Downloading http://mirrors.aliyun.com/pypi/packages/02/52/815f643ed3afb3365354548b3c8b557dbf926a65c40ad5b6d9e455147c7e/pandas-2.1.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (12.3 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12.3/12.3 MB 30.3 MB/s eta 0:00:00
+  Downloading http://mirrors.aliyun.com/pypi/packages/2f/0e/3b74e8f7c908082793adafb02753477f653ccd7e189f3ba070757d2d0e65/pandas-2.1.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (12.3 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12.3/12.3 MB 24.4 MB/s eta 0:00:00
+  Downloading http://mirrors.aliyun.com/pypi/packages/fb/4f/4a4372b2e24439f559b73318683486831d75e59544ae02bf8dec8dd6f48b/pandas-2.1.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (12.7 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12.7/12.7 MB 31.6 MB/s eta 0:00:00
+  Downloading http://mirrors.aliyun.com/pypi/packages/e3/59/35a2892bf09ded9c1bf3804461efe772836a5261ef5dfb4e264ce813ff99/pandas-2.0.3-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (12.3 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12.3/12.3 MB 29.6 MB/s eta 0:00:00
+Collecting python-dateutil>=2.8.2 (from pandas)
+  Downloading http://mirrors.aliyun.com/pypi/packages/ec/57/56b9bcc3c9c6a792fcbaf139543cee77261f3651ca9da0c93f5c1221264b/python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB)
+Collecting pytz>=2020.1 (from pandas)
+  Downloading http://mirrors.aliyun.com/pypi/packages/81/c4/34e93fe5f5429d7570ec1fa436f1986fb1f00c3e0f43a589fe2bbcd22c3f/pytz-2025.2-py2.py3-none-any.whl (509 kB)
+Collecting tzdata>=2022.1 (from pandas)
+  Downloading http://mirrors.aliyun.com/pypi/packages/5c/23/c7abc0ca0a1526a0774eca151daeb8de62ec457e77262b66b359c3c7679e/tzdata-2025.2-py2.py3-none-any.whl (347 kB)
+Collecting et-xmlfile (from openpyxl)
+  Downloading http://mirrors.aliyun.com/pypi/packages/c1/8b/5fe2cc11fee489817272089c4203e679c63b570a5aaeb18d852ae3cbba6a/et_xmlfile-2.0.0-py3-none-any.whl (18 kB)
+Collecting six>=1.5 (from python-dateutil>=2.8.2->pandas)
+  Downloading http://mirrors.aliyun.com/pypi/packages/b7/ce/149a00dd41f10bc29e5921b496af8b574d8413afcd5e30dfa0ed46c2cc5e/six-1.17.0-py2.py3-none-any.whl (11 kB)
+Requirement already satisfied: mpmath<1.4,>=1.1.0 in /root/miniconda3/envs/sat/lib/python3.10/site-packages (from sympy>=1.13.3->torch) (1.3.0)
+Requirement already satisfied: MarkupSafe>=2.0 in /root/miniconda3/envs/sat/lib/python3.10/site-packages (from jinja2->torch) (3.0.2)
+Collecting charset_normalizer<4,>=2 (from requests->transformers==4.21.3)
+  Downloading http://mirrors.aliyun.com/pypi/packages/a8/2d/7a5b635aa65284bf3eab7653e8b4151ab420ecbae918d3e359d1947b4d61/charset_normalizer-3.4.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (149 kB)
+Collecting idna<4,>=2.5 (from requests->transformers==4.21.3)
+  Downloading http://mirrors.aliyun.com/pypi/packages/76/c6/c88e154df9c4e1a2a66ccf0005a88dfb2650c1dffb6f5ce603dfbd452ce3/idna-3.10-py3-none-any.whl (70 kB)
+Collecting urllib3<3,>=1.21.1 (from requests->transformers==4.21.3)
+  Downloading http://mirrors.aliyun.com/pypi/packages/a7/c2/fe1e52489ae3122415c51f387e221dd0773709bad6c6cdaa599e8a2c5185/urllib3-2.5.0-py3-none-any.whl (129 kB)
+Collecting certifi>=2017.4.17 (from requests->transformers==4.21.3)
+  Downloading http://mirrors.aliyun.com/pypi/packages/4f/52/34c6cf5bb9285074dc3531c437b3919e825d976fde097a7a73f79e726d03/certifi-2025.7.14-py3-none-any.whl (162 kB)
+Installing collected packages: tokenizers, pytz, urllib3, tzdata, tqdm, six, regex, pyyaml, packaging, numpy, idna, hf-xet, et-xmlfile, einops, charset_normalizer, certifi, scipy, requests, python-dateutil, positional_encodings, openpyxl, nibabel, pandas, huggingface-hub, transformers, monai
+  Attempting uninstall: numpy
+    Found existing installation: numpy 2.2.6
+    Uninstalling numpy-2.2.6:
+      Successfully uninstalled numpy-2.2.6
+
